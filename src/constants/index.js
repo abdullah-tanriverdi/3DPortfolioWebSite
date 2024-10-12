@@ -1,40 +1,42 @@
 import {
+  eterna,
+  ankageo,
+  android,
+  dart,
+  firebase,
+  flutter,
+  java,
+  kalilinux,
+  kotlin,
+  python,
+  securityonion,
+  socketio,
+  git,
+  q,
+  bigo,
+  shooting,
+  firatfusion,
+  adstorm,
+  datastructure,
+  androidservices,
+  
+
     mobile,
     backend,
     creator,
     web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+  
+
   } from "../assets";
   
   export const navLinks = [
     
-    {
-      id: "work",
-      title: "Work",
-    },
+    
     {
       id: "contact",
       title: "Contact",
     },
+
   ];
   
   const services = [
@@ -58,112 +60,80 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "JAVA",
+      icon: java,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "DART",
+      icon: dart,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "KOTLİN",
+      icon: kotlin,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Android",
+      icon: android,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "Kali Linux",
+      icon: kalilinux,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Socket.IO",
+      icon: socketio,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Firebase",
+      icon: firebase,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Flutter",
+      icon: flutter,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Security Onion",
+      icon: securityonion,
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Android Developer Intern",
+      company_name: "Eterna Technology",
+      icon: eterna,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2024 - September 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+        "Enhanced skills in Android development by creating and maintaining applications for rooted Android devices.",
+        "Developed proficiency in using Socket.io for establishing reliable server connections and efficient communication protocols.",
+        "Gained expertise in implementing background services and utilizing Android's Accessibility Service for improved application functionality.",
+        "Strengthened knowledge of software architectures and best practices, resulting in structured and scalable application design.",
+        "Collaborated effectively with cross-functional teams, improving teamwork and communication skills while delivering high-quality applications.",
+        "Participated in code reviews, honing the ability to provide and receive constructive feedback to improve code quality and best practices."
+      ]
+    } ,
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Mobile Developer Intern",
+      company_name: "Ankageo Geospatial Technology",
+      icon: ankageo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "September 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Upon completing my internship, the necessary skills and achievements will be detailed.",
+        "The experiences and skills I gain during this period will also be shared."
+      ]
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -195,68 +165,134 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Ad Storm",
+    
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "android",
+          color: "pink-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "java",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "socket.io",
+          color: "blue-text-gradient",
+        },
+
+        
+      ],
+      image: adstorm,
+      source_code_link: "https://github.com/abdullah-tanriverdi/AdStormApp",
+    },
+
+
+    {
+      name: "Fırat Fusion",
+      
+      tags: [
+        {
+          name: "android",
           color: "pink-text-gradient",
         },
+        {
+          name: "kotlin",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "blue-text-gradient",
+        },
+
+        
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: firatfusion,
+      source_code_link: "https://github.com/abdullah-tanriverdi",
+    },
+
+    {
+      name: "Shooting Range",
+      tags: [
+        {
+          name: "arduino",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "c++",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: shooting,
+      source_code_link: "https://github.com/abdullah-tanriverdi/ShootingRangeArduino",
+    },
+   
+    
+  ];
+
+  const blog = [
+    {
+      name: "Service Usage and Management in Android",
+      
+      tags: [
+        {
+          name: "androidservice",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "jobshceduler",
+          color: "green-text-gradient",
+        },
+        {
+          name: "workmanager",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: androidservices,
+      source_code_link: "https://medium.com/@tanriverdi.abdullah/service-usage-and-management-in-android-a6642d9fa114",
+    },
+
+    {
+      name: "The Building Blocks of Data Structure: Stack, Queue, and Deque",
+      
+      tags: [
+        {
+          name: "datastructure",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "algorithms",
+          color: "green-text-gradient",
+        },
+       
+      ],
+      image: datastructure,
+      source_code_link: "https://medium.com/@tanriverdi.abdullah/the-building-blocks-of-data-structure-stack-queue-and-deque-b453ee414919",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "Big O Notation: Understanding Algorithm Performance",
+      
       tags: [
         {
-          name: "react",
+          name: "algorithmanalysis",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "bigo",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "algorithms",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: bigo,
+      source_code_link: "https://medium.com/@tanriverdi.abdullah/big-o-notation-understanding-algorithm-performance-bd92a000d47e",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+   
+    
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, blog, };

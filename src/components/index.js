@@ -7,6 +7,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Blog from "./Blog"
 
 
 export {
@@ -16,6 +17,7 @@ export {
   Tech,
   Experience,
   Works,
+  Blog,
   Feedbacks,
   Contact,
   CanvasLoader,

@@ -77,9 +77,9 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
-      </div>
+      </div> 
     </>
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "experince");
