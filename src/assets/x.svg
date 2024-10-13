@@ -1,0 +1,9 @@
+// X SVG Logosu
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 248 204"
+  fill="white"
+  className="w-[24px] h-[24px] hover:opacity-75"
+>
+  <path d="M248 0L132.6 114.1 248 203.7H206.8L104 114.1 9.8 203.7H0L115.7 103.9 8.8 0H50.1l79.7 90L198.1 0z" />
+</svg>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { FaLinkedin, FaGithub, FaMedium, FaYoutube, FaTelegramPlane, FaInstagram, FaWhatsapp, FaTwitter, FaEnvelope } from "react-icons/fa"; // İkonları import et
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -45,7 +46,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Abdullah TANRIVERDİ &nbsp;
-            <span className='sm:block hidden'> | Software Engineer</span>
+            <span className='sm:block hidden'>| Software Engineer</span>
           </p>
         </Link>
 
@@ -62,6 +63,37 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        {/* Sosyal medya ikonları */}
+        <div className="hidden sm:flex items-center gap-4">
+          <a href="https://www.linkedin.com/in/abdullahttanriverdi" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="text-white text-[24px] hover:text-blue-500" />
+          </a>
+          <a href="https://github.com/abdullah-tanriverdi" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="text-white text-[24px] hover:text-gray-400" />
+          </a>
+          <a href="https://medium.com/@tanriverdi.abdullah" target="_blank" rel="noopener noreferrer">
+            <FaMedium className="text-white text-[24px] hover:text-green-500" />
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <FaYoutube className="text-white text-[24px] hover:text-red-600" />
+          </a>
+          <a href="https://t.me/abdullahtanriverdi" target="_blank" rel="noopener noreferrer">
+            <FaTelegramPlane className="text-white text-[24px] hover:text-blue-500" />
+          </a>
+          <a href="mailto:4abdullah.tanriverdi@gmail.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope className="text-white text-[24px] hover:text-red-500" />
+          </a>
+          <a href="https://x.com/a_bdullahtnrvrd" target="_blank" rel="noopener noreferrer">
+            <FaTwitter className="text-white text-[24px] hover:text-blue-400" />
+          </a>
+          <a href="https://instagram.com/abdullah.tnrvrd" target="_blank" rel="noopener noreferrer">
+            <FaInstagram className="text-white text-[24px] hover:text-pink-500" />
+          </a>
+          <a href="https://wa.me/05462640611" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp className="text-white text-[24px] hover:text-green-500" />
+          </a>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
@@ -92,6 +124,37 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+
+            {/* Mobil menüde sosyal medya ikonları */}
+            <div className="flex items-center gap-4 mt-4">
+              <a href="https://www.linkedin.com/in/abdullahttanriverdi/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-white text-[24px] hover:text-blue-500" />
+              </a>
+              <a href="https://github.com/abdullah-tanriverdi" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-white text-[24px] hover:text-gray-400" />
+              </a>
+              <a href="https://medium.com/@tanriverdi.abdullah" target="_blank" rel="noopener noreferrer">
+                <FaMedium className="text-white text-[24px] hover:text-white" />
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                <FaYoutube className="text-white text-[24px] hover:text-red-600" />
+              </a>
+              <a href="https://t.me/abdullahtanriverdi" target="_blank" rel="noopener noreferrer">
+                <FaTelegramPlane className="text-white text-[24px] hover:text-blue-500" />
+              </a>
+              <a href="mailto:4abdullah.tanriverdi@gmail.com" target="_blank" rel="noopener noreferrer">
+                <FaEnvelope className="text-white text-[24px] hover:text-red-500" />
+              </a>
+              <a href="https://x.com/a_bdullahtnrvrd" target="_blank" rel="noopener noreferrer">
+                <FaTwitter className="text-white text-[24px] hover:text-blue-400" />
+              </a>
+              <a href="https://instagram.com/abdullah.tnrvrd" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className="text-white text-[24px] hover:text-pink-500" />
+              </a>
+              <a href="https://wa.me/05462640611" target="_blank" rel="noopener noreferrer">
+                <FaWhatsapp className="text-white text-[24px] hover:text-green-500" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
