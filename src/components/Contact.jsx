@@ -32,18 +32,19 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.service_vpavgug,
-        import.meta.env.template_mhpiv5l,
-        {
-          from_name: form.name,
-          to_name: "Abdullah TANRIVERDİ",
-          from_email: form.email,
-          to_email: "tanriverdi.firatuni@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.egnziB9Wzt2kKRYkp
-      )
+    emailjs
+    .send(
+      import.meta.env.service_vpavgug,
+      import.meta.env.template_mhpiv5l,
+      {
+        from_name: form.name,
+        to_name: "Abdullah TANRIVERDİ",
+        from_email: form.email,
+        to_email: "tanriverdi.firatuni@gmail.com",
+        message: form.message,
+      },
+      import.meta.env.egnziB9Wzt2kKRYkp
+    )
       .then(
         () => {
           setLoading(false);
