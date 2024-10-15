@@ -735,7 +735,7 @@ module.exports = {
 
 ## <a name="links">🔗 Links</a>
 
-Models and Assets used in the project can be found [here](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
+Models and Assets used in the project can be found [here](https://drive.google.com/drive/folders/1OLNwQ1PI1zXnVUpcgiltv_hKHaQ2D1Lp?usp=drive_link)
 
 ***
 ***Abdullah TANRIVERDİ***
