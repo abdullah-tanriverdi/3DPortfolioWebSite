@@ -1,4 +1,21 @@
-<h3 align="center">A 3D Developer Portfolio</h3>
+<h1 align="center">A 3D Developer Portfolio</h3>
+
+
+<div style="display: flex; justify-content: space-around;">
+    <img src="ss/1.png" alt="Screenshot" width="300" />
+    <img src="ss/2.png" alt="Screenshot" width="300" />
+    <img src="ss/3.png" alt="Screenshot" width="300" />
+  
+</div>
+
+<div style="display: flex; justify-content: space-around;">
+    <img src="ss/4.png" alt="Screenshot" width="300" />
+    <img src="ss/5.png" alt="Screenshot" width="300" />
+    <img src="ss/6.png" alt="Screenshot" width="300" />
+  
+</div>
+
+
 
 ## 📋 <a name="table">Table of Contents</a>
 
