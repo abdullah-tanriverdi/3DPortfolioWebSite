@@ -104,31 +104,52 @@ import {
   
   const experiences = [
     {
-      title: "Android Developer Intern",
-      company_name: "Eterna Technology",
+      title: "Software Engineer Intern",
+      company_name: "Ankageo Coğrafi Bilgi Teknolojileri",
+      icon: ankageo,
+      iconBg: "#E6DEDD",
+      date: "September 2024 - January 2025",
+      points: [
+       "OSM (OpenStreetMap)",
+       "Ubuntu",
+       "Docker",
+       "MapLibre",
+       "PostgreSQL",
+       "QGIS",
+       "GeoServer",
+       "Android Studio",
+       "Flutter",
+       "Dart",
+       "Firebase",
+       "MVVM Architecture"
+      ]
+    },
+
+    {
+      title: "Software Engineer Intern",
+      company_name: "Eterna Teknoloji",
       icon: eterna,
       iconBg: "#383E56",
       date: "July 2024 - September 2024",
       points: [
-        "Enhanced skills in Android development by creating and maintaining applications for rooted Android devices.",
-        "Developed proficiency in using Socket.io for establishing reliable server connections and efficient communication protocols.",
-        "Gained expertise in implementing background services and utilizing Android's Accessibility Service for improved application functionality.",
-        "Strengthened knowledge of software architectures and best practices, resulting in structured and scalable application design.",
-        "Collaborated effectively with cross-functional teams, improving teamwork and communication skills while delivering high-quality applications.",
-        "Participated in code reviews, honing the ability to provide and receive constructive feedback to improve code quality and best practices."
+        "Appium",
+        "Socket.io",
+        "Accessibility Service",
+        "Chrome Preferences Files",
+        "F-Droid",
+        "AES",
+        "Android Studio",
+        "Java",
+        "XML",
+        "Termux",
+        "ADB",
+        "Android Inspector",
+        "MVVM Architecture"
+
+       
       ]
-    } ,
-    {
-      title: "Mobile Developer Intern",
-      company_name: "Ankageo Geospatial Technology",
-      icon: ankageo,
-      iconBg: "#E6DEDD",
-      date: "September 2024 - Present",
-      points: [
-        "Upon completing my internship, the necessary skills and achievements will be detailed.",
-        "The experiences and skills I gain during this period will also be shared."
-      ]
-    },
+    }
+
     
   ];
   

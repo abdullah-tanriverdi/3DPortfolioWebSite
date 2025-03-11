@@ -34,8 +34,8 @@ const Contact = () => {
     emailjs
     emailjs
     .send(
-      'service_vpavgug',
-      'template_mhpiv5l',
+      'key',
+      'key',
         {
           from_name: form.name,
           to_name: "Abdullah TANRIVERDİ",
@@ -43,7 +43,7 @@ const Contact = () => {
           to_email: "tanriverdi.firatuni@gmail.com",
           message: form.message,
         },
-        'egnziB9Wzt2kKRYkp'
+        'key'
       )
       .then(
         () => {
@@ -136,6 +136,3 @@ const Contact = () => {
 
 export default SectionWrapper(Contact, "");
 
-//template_mhpiv5l
-//service_vpavgug
-//egnziB9Wzt2kKRYkp
